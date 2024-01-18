@@ -1,7 +1,7 @@
 import CSS from "csstype";
 
 export const displayComponent: CSS.Properties = {
-  display: "flex",
+  margin: "40px",
 };
 
 export const boxComponent: CSS.Properties = {
@@ -9,7 +9,7 @@ export const boxComponent: CSS.Properties = {
 };
 
 export const cardDisplay: CSS.Properties = {
-  width: "200px",
+  width: "450px",
   background: "#fff",
   padding: "10px",
   border: "2px solid rgb(235, 238, 241)",
@@ -20,17 +20,16 @@ export const cardDisplay: CSS.Properties = {
 
 export const BoxLayout: CSS.Properties = {
   width: "250px",
-  height: "500px",
+  height: "600px",
   background: "#fff",
   padding: "10px",
   border: "2px solid rgb(235, 238, 241)",
   cursor: "pointer",
   textAlign: "center",
 };
+
 export const TitleBox: CSS.Properties = {
-  width: "250px",
-  background: "#D1D0D0",
+  width: "450px",
   textAlign: "center",
   padding: "10px",
-  border: "2px solid rgb(235, 238, 241)",
 };

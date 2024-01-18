@@ -13,8 +13,6 @@ const ToDoComponent: React.FC<any> = ({ listData }) => {
   const [isFruit, setListFruit] = useState<Itodo[]>([]);
   const [isVegetable, setListVegetable] = useState<Itodo[]>([]);
 
-  useEffect(() => {}, [listData]);
-
   const handleTodolist = (item: Itodo) => {
     if (item.type === "Fruit") {
       const fruitList = [...isFruit, item];

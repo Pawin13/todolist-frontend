@@ -19,7 +19,8 @@
       "@/helpers/*": ["./src/helpers/*"],
       "@/styles/*": ["./src/styles/*"],
       "@/public/*": ["./public/*"],
-      "@/interfaces/*": ["./interfaces/*"]
+      "@/interfaces/*": ["./interfaces/*"],
+      "@/lib/*": ["./lib/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
